@@ -23,6 +23,13 @@ def get_hindsight_client():
     """Get or create Hindsight client (cached)"""
     global _hindsight_client
     if _hindsight_client is None:
+        import asyncio
+        import warnings
+        
+        # Suppress specific async warnings from Hindsight library
+        warnings.filterwarnings("ignore", message=".*coroutine.*")
+        warnings.filterwarnings("ignore", message=".*Timeout.*")
+        
         _hindsight_client = Hindsight(
             base_url="https://api.hindsight.vectorize.io",
             api_key=HINDSIGHT_API_KEY
