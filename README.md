@@ -2,6 +2,8 @@
 
 > An AI sales agent that remembers every conversation, learns from past interactions, and personalizes every response using Hindsight agent memory.
 
+**Live Demo:** https://gpt-sales.streamlit.app/
+
 ![Demo](https://img.shields.io/badge/demo-live-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Hindsight](https://img.shields.io/badge/memory-Hindsight-purple.svg)
