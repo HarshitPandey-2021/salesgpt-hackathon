@@ -4,6 +4,7 @@
 
 **Live Demo:** https://gpt-sales.streamlit.app/
 
+
 ![Demo](https://img.shields.io/badge/demo-live-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Hindsight](https://img.shields.io/badge/memory-Hindsight-purple.svg)
@@ -266,7 +267,7 @@ LinkedIn: [Add your LinkedIn]
 
 ## 🔗 Links
 
-Live Demo: Coming Soon
+Live Demo:  https://gpt-sales.streamlit.app/
 Demo Video: Coming Soon
 Hindsight Docs: https://hindsight.vectorize.io
 Article: Coming Soon
